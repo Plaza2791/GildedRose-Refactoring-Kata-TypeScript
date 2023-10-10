@@ -1,0 +1,961 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gilded Rose should update quality 1`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 2`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 3`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 4`] = `
+Item {
+  "name": "foo",
+  "quality": 47,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 5`] = `
+Item {
+  "name": "foo",
+  "quality": 48,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 6`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 7`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 8`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 9`] = `
+Item {
+  "name": "foo",
+  "quality": 47,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 10`] = `
+Item {
+  "name": "foo",
+  "quality": 48,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 11`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 12`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 13`] = `
+Item {
+  "name": "foo",
+  "quality": 1,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 14`] = `
+Item {
+  "name": "foo",
+  "quality": 48,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 15`] = `
+Item {
+  "name": "foo",
+  "quality": 49,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 16`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 17`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 18`] = `
+Item {
+  "name": "foo",
+  "quality": 1,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 19`] = `
+Item {
+  "name": "foo",
+  "quality": 48,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 20`] = `
+Item {
+  "name": "foo",
+  "quality": 49,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 21`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 22`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 23`] = `
+Item {
+  "name": "foo",
+  "quality": 1,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 24`] = `
+Item {
+  "name": "foo",
+  "quality": 48,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 25`] = `
+Item {
+  "name": "foo",
+  "quality": 49,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 26`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 27`] = `
+Item {
+  "name": "foo",
+  "quality": 0,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 28`] = `
+Item {
+  "name": "foo",
+  "quality": 1,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 29`] = `
+Item {
+  "name": "foo",
+  "quality": 48,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 30`] = `
+Item {
+  "name": "foo",
+  "quality": 49,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 31`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 2,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 32`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 3,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 33`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 4,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 34`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 35`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 36`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 2,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 37`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 3,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 38`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 4,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 39`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 40`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 41`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 1,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 42`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 2,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 43`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 3,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 44`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 45`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 46`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 1,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 47`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 2,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 48`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 3,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 49`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 50`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 51`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 1,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 52`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 2,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 53`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 3,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 54`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 55`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 56`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 1,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 57`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 2,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 58`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 3,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 59`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 60`] = `
+Item {
+  "name": "Aged Brie",
+  "quality": 50,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 61`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 0,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 62`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 0,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 63`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 0,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 64`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 0,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 65`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 0,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 66`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 67`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 68`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 69`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 70`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 71`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 3,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 72`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 4,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 73`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 5,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 74`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 50,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 75`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 50,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 76`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 3,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 77`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 4,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 78`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 5,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 79`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 50,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 80`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 50,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 81`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 2,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 82`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 3,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 83`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 4,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 84`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 50,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 85`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 50,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 86`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 1,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 87`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 2,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 88`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 3,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 89`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 50,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 90`] = `
+Item {
+  "name": "Backstage passes to a TAFKAL80ETC concert",
+  "quality": 50,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 91`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 92`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 1,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 93`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 2,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 94`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 49,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 95`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 50,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 96`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 0,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 97`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 1,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 98`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 2,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 99`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 49,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 100`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 50,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 101`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 0,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 102`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 1,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 103`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 2,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 104`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 49,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 105`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 50,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 106`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 0,
+  "sellIn": 2,
+}
+`;
+
+exports[`Gilded Rose should update quality 107`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 1,
+  "sellIn": 2,
+}
+`;
+
+exports[`Gilded Rose should update quality 108`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 2,
+  "sellIn": 2,
+}
+`;
+
+exports[`Gilded Rose should update quality 109`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 49,
+  "sellIn": 2,
+}
+`;
+
+exports[`Gilded Rose should update quality 110`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 50,
+  "sellIn": 2,
+}
+`;
+
+exports[`Gilded Rose should update quality 111`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 0,
+  "sellIn": 6,
+}
+`;
+
+exports[`Gilded Rose should update quality 112`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 1,
+  "sellIn": 6,
+}
+`;
+
+exports[`Gilded Rose should update quality 113`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 2,
+  "sellIn": 6,
+}
+`;
+
+exports[`Gilded Rose should update quality 114`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 49,
+  "sellIn": 6,
+}
+`;
+
+exports[`Gilded Rose should update quality 115`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 50,
+  "sellIn": 6,
+}
+`;
+
+exports[`Gilded Rose should update quality 116`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 0,
+  "sellIn": 11,
+}
+`;
+
+exports[`Gilded Rose should update quality 117`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 1,
+  "sellIn": 11,
+}
+`;
+
+exports[`Gilded Rose should update quality 118`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 2,
+  "sellIn": 11,
+}
+`;
+
+exports[`Gilded Rose should update quality 119`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 49,
+  "sellIn": 11,
+}
+`;
+
+exports[`Gilded Rose should update quality 120`] = `
+Item {
+  "name": "Sulfuras, Hand of Ragnaros",
+  "quality": 50,
+  "sellIn": 11,
+}
+`;
