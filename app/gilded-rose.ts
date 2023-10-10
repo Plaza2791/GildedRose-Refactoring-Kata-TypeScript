@@ -26,30 +26,36 @@ export class GildedRose {
 
   updateQuality() {
     return this.items.map((item) => {
-      if (item.name == "Aged Brie") {
-        item.sellIn--;
+      let qualityChange: number;
 
-        const qualityIncrease = item.sellIn < 0 ? 2 : 1;
+      switch (true) {
+        case item.name == "Sulfuras, Hand of Ragnaros":
+          return item;
 
-        item.quality = Math.min(item.quality + qualityIncrease, MAX_QUALITY);
-      } else if (item.name == "Backstage passes to a TAFKAL80ETC concert") {
-        const qualityIncrease = item.sellIn < 6 ? 3 : item.sellIn < 11 ? 2 : 1;
+        case item.name == "Aged Brie":
+          item.sellIn--;
+          qualityChange = item.sellIn < 0 ? 2 : 1;
+          item.quality = Math.min(item.quality + qualityChange, MAX_QUALITY);
 
-        item.sellIn--;
+          return item;
 
-        item.quality =
-          item.sellIn < 0
-            ? 0
-            : Math.min(item.quality + qualityIncrease, MAX_QUALITY);
-      } else if (item.name != "Sulfuras, Hand of Ragnaros") {
-        item.sellIn--;
+        case item.name == "Backstage passes to a TAFKAL80ETC concert":
+          qualityChange = item.sellIn < 6 ? 3 : item.sellIn < 11 ? 2 : 1;
+          item.sellIn--;
+          item.quality =
+            item.sellIn < 0
+              ? 0
+              : Math.min(item.quality + qualityChange, MAX_QUALITY);
 
-        const qualityDecrease = item.sellIn < 0 ? 2 : 1;
+          return item;
 
-        item.quality = Math.max(item.quality - qualityDecrease, 0);
+        default:
+          item.sellIn--;
+          qualityChange = item.sellIn < 0 ? 2 : 1;
+          item.quality = Math.max(item.quality - qualityChange, 0);
+
+          return item;
       }
-
-      return item;
     });
   }
 }
