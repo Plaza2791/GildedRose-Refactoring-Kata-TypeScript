@@ -13,7 +13,9 @@
     "test:vitest": "vitest --coverage",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "prestart": "npm run compile",
+    "start": "node app/index.js"
   },
   "license": "MIT",
   "private": true,
