@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "Gilded Rose kata in TypeScript",
   "scripts": {
+    "prepare": "husky install",
     "precompile": "rimraf --glob app/**/*.js test/**/*.js",
     "compile": "tsc",
     "pretest": "rimraf --glob app/**/*.js test/**/*.js",
     "test:jest": "jest",
     "test:jest:watch": "jest --watchAll",
     "test:mocha": "nyc mocha",
-    "test:vitest": "vitest --coverage"
+    "test:vitest": "vitest --coverage",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier . --write"
   },
   "license": "MIT",
   "private": true,
@@ -18,18 +22,31 @@
     "@types/jest": "^29.4.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.14.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
     "@vitest/coverage-istanbul": "^0.28.5",
     "chai": "^4.3.4",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
     "jest": "^29.4.3",
+    "lint-staged": "^14.0.1",
     "mocha": "^10.2.0",
     "nyc": "~15.1.0",
+    "prettier": "3.0.3",
     "rimraf": "^4.2.0",
     "source-map-support": "^0.5.20",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.1.2",
-    "typescript": "^4.4.4",
+    "typescript": "^4.9.5",
     "vite-tsconfig-paths": "^4.0.5",
     "vitest": "^0.28.5"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "npm run lint:fix",
+      "npm run format"
+    ]
   }
 }

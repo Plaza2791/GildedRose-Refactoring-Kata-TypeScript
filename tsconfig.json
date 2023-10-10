@@ -9,15 +9,9 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "paths": {
-      "@/*": [
-        "app/*"
-      ]
+      "@/*": ["app/*"]
     },
     "skipLibCheck": true
   },
-  "exclude": [
-    "node_modules",
-    "jest.config.ts",
-    "vitest.config.ts"
-  ]
+  "exclude": ["node_modules", "jest.config.ts", "vitest.config.ts"]
 }
