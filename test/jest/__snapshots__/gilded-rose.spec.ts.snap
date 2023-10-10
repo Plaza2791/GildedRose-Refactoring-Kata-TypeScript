@@ -959,3 +959,243 @@ Item {
   "sellIn": 11,
 }
 `;
+
+exports[`Gilded Rose should update quality 121`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 122`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 123`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 124`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 45,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 125`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 46,
+  "sellIn": -2,
+}
+`;
+
+exports[`Gilded Rose should update quality 126`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 127`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 128`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 129`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 45,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 130`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 46,
+  "sellIn": -1,
+}
+`;
+
+exports[`Gilded Rose should update quality 131`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 132`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 133`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 134`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 47,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 135`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 48,
+  "sellIn": 0,
+}
+`;
+
+exports[`Gilded Rose should update quality 136`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 137`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 138`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 139`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 47,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 140`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 48,
+  "sellIn": 1,
+}
+`;
+
+exports[`Gilded Rose should update quality 141`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 142`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 143`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 144`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 47,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 145`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 48,
+  "sellIn": 5,
+}
+`;
+
+exports[`Gilded Rose should update quality 146`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 147`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 148`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 0,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 149`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 47,
+  "sellIn": 10,
+}
+`;
+
+exports[`Gilded Rose should update quality 150`] = `
+Item {
+  "name": "Conjured Mana Cake",
+  "quality": 48,
+  "sellIn": 10,
+}
+`;

@@ -49,6 +49,13 @@ export class GildedRose {
 
           return item;
 
+        case item.name.startsWith("Conjured"):
+          item.sellIn--;
+          qualityChange = item.sellIn < 0 ? 4 : 2;
+          item.quality = Math.max(item.quality - qualityChange, 0);
+
+          return item;
+
         default:
           item.sellIn--;
           qualityChange = item.sellIn < 0 ? 2 : 1;

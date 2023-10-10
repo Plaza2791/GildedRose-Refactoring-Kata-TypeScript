@@ -6,6 +6,7 @@ describe("Gilded Rose", () => {
     "Aged Brie",
     "Backstage passes to a TAFKAL80ETC concert",
     "Sulfuras, Hand of Ragnaros",
+    "Conjured Mana Cake",
   ];
 
   const sellIns: number[] = [-1, 0, 1, 2, 6, 11];
