@@ -1,0 +1,5 @@
+app/**/*.js
+test/**/*.js
+.eslintrc.cjs
+jest.config.ts
+vitest.config.ts
