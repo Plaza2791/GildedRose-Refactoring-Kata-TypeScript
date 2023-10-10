@@ -10,20 +10,6 @@ Install dependencies
 npm install
 ```
 
-## Running app
-
-_You may need to install `ts-node`_
-
-```sh
-npx ts-node test/golden-master-text-test.ts
-```
-
-Or with number of days as args:
-
-```sh
-npx ts-node test/golden-master-text-test.ts 10
-```
-
 ## Running tests
 
 To run all tests
@@ -40,8 +26,16 @@ To run all tests in watch mode
 npm run test:jest:watch
 ```
 
-### Mocha way
+### Vitest way
 
 ```sh
-npm run test:mocha
+npm run test:vitest
+```
+
+## Running the Node.js task
+
+You need Node.js 18+ (for the fetch API).
+
+```sh
+npm run start updates requests
 ```
