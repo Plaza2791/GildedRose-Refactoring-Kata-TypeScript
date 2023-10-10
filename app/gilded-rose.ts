@@ -15,6 +15,8 @@ export class Item {
 /* eslint-enable */
 // prettier-ignore-end
 
+const MAX_QUALITY = 50;
+
 export class GildedRose {
   items: Array<Item>;
 
@@ -25,43 +27,26 @@ export class GildedRose {
   updateQuality() {
     return this.items.map((item) => {
       if (item.name == "Aged Brie") {
-        if (item.quality < 50) {
-          item.quality = item.quality + 1;
-        }
-        item.sellIn = item.sellIn - 1;
-        if (item.sellIn < 0) {
-          if (item.quality < 50) {
-            item.quality = item.quality + 1;
-          }
-        }
+        item.sellIn--;
+
+        const qualityIncrease = item.sellIn < 0 ? 2 : 1;
+
+        item.quality = Math.min(item.quality + qualityIncrease, MAX_QUALITY);
       } else if (item.name == "Backstage passes to a TAFKAL80ETC concert") {
-        if (item.quality < 50) {
-          item.quality = item.quality + 1;
-          if (item.sellIn < 11) {
-            if (item.quality < 50) {
-              item.quality = item.quality + 1;
-            }
-          }
-          if (item.sellIn < 6) {
-            if (item.quality < 50) {
-              item.quality = item.quality + 1;
-            }
-          }
-        }
-        item.sellIn = item.sellIn - 1;
-        if (item.sellIn < 0) {
-          item.quality = item.quality - item.quality;
-        }
+        const qualityIncrease = item.sellIn < 6 ? 3 : item.sellIn < 11 ? 2 : 1;
+
+        item.sellIn--;
+
+        item.quality =
+          item.sellIn < 0
+            ? 0
+            : Math.min(item.quality + qualityIncrease, MAX_QUALITY);
       } else if (item.name != "Sulfuras, Hand of Ragnaros") {
-        if (item.quality > 0) {
-          item.quality = item.quality - 1;
-        }
-        item.sellIn = item.sellIn - 1;
-        if (item.sellIn < 0) {
-          if (item.quality > 0) {
-            item.quality = item.quality - 1;
-          }
-        }
+        item.sellIn--;
+
+        const qualityDecrease = item.sellIn < 0 ? 2 : 1;
+
+        item.quality = Math.max(item.quality - qualityDecrease, 0);
       }
 
       return item;
