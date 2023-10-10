@@ -82,6 +82,9 @@ const makeRequests = async (requests: number, toLog: boolean) => {
 fs.unlink(LOG_FILE, () => {});
 
 void (async () => {
+  console.log("=== Initial items ===");
+  console.log(gildedRose.items);
+
   for (let i = 0; i < updates; i++) {
     let positiveAnswers = await makeRequests(requests, true);
 
@@ -90,5 +93,8 @@ void (async () => {
     }
 
     gildedRose.updateQuality();
+
+    console.log(`=== Update ${i + 1} ===`);
+    console.log(gildedRose.items);
   }
 })();
