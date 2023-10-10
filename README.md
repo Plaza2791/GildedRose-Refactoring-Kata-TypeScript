@@ -12,23 +12,30 @@ npm install
 
 ## Running tests
 
-To run all tests
+To run all tests (Vitest by default)
+
+```sh
+npm run test
+```
 
 ### Jest way
 
 ```sh
+npm run pretest
 npm run test:jest
 ```
 
 To run all tests in watch mode
 
 ```sh
+npm run pretest
 npm run test:jest:watch
 ```
 
 ### Vitest way
 
 ```sh
+npm run pretest
 npm run test:vitest
 ```
 

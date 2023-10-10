@@ -7,6 +7,7 @@
     "precompile": "rimraf --glob app/**/*.js test/**/*.js",
     "compile": "tsc",
     "pretest": "rimraf --glob app/**/*.js test/**/*.js",
+    "test": "npm run test:vitest",
     "test:jest": "jest",
     "test:jest:watch": "jest --watchAll",
     "test:mocha": "nyc mocha",
